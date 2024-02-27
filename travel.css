@@ -42,3 +42,89 @@
     background-color: red;
     transition:0.6s ;
 }
+.body {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(assets/bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.heading{
+    width: 30%;
+    text-align: center;
+    color: #fff;
+}
+.heading h1{
+    font-size: 40px;
+}
+.heading a{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 45px;
+    padding: 14px 50px;
+    background-color: #fff;
+}
+.heading a:hover{
+    letter-spacing: 3px;
+    transition: 0.6s;
+}
+.TOURS{
+    width: 70%;
+    display: flex;
+    justify-content:space-between;
+}
+.places{
+    display: inline;
+    text-align: center;
+    border-radius: 12px;
+    margin-right: 15px;
+}
+.places h2{
+    color:red ;
+    font-size: 35px;
+    letter-spacing: 3px;
+    border-radius: 1px;
+    padding: 15px 15px;
+    background-color: #000;
+}
+.places a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 12px 30px;
+    background-color: #fff;
+}
+.places a:hover{
+    background-color: #000;
+    letter-spacing: 3px;
+    transition: 0.6s;
+}
+.footer{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer a{
+    text-decoration: none;
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 70px ;
+    letter-spacing: 1px;
+    
+}
+.option a:hover{
+    background-color: #000;
+    letter-spacing: 3px;
+    transition: 0.6s;
+}
